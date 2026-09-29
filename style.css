@@ -3,6 +3,7 @@
     --primary: #1b4d3e;      /* Deep Mint / Green Accent */
     --primary-hover: #12352b;
     --accent: #2a7b62;
+    --accent-light: #ecfdf5;
     --dark: #1f2937;
     --light: #f8fafc;
     --white: #ffffff;
@@ -116,7 +117,7 @@ body {
     margin-bottom: 30px;
 }
 
-/* --- GRID & CARDS --- */
+/* --- GRID & HIGHLIGHT BOX --- */
 .grid-2 {
     display: grid;
     grid-template-columns: 1fr;
@@ -130,7 +131,7 @@ body {
 }
 
 .highlight-box {
-    background-color: #ecfdf5;
+    background-color: var(--accent-light);
     border-left: 4px solid var(--accent);
     padding: 20px;
     border-radius: 0 var(--radius) var(--radius) 0;
@@ -141,6 +142,37 @@ body {
     margin-bottom: 10px;
 }
 
+/* --- GOALS SECTION --- */
+.goal-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-left: 6px solid var(--primary);
+    padding: 30px;
+    border-radius: var(--radius);
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.goal-stat {
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: var(--accent);
+    line-height: 1;
+}
+
+.goal-text h3 {
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+    color: var(--dark);
+}
+
+.goal-text p {
+    color: var(--gray);
+}
+
+/* --- CARDS GRID --- */
 .cards-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -202,6 +234,52 @@ code {
     padding: 2px 6px;
     border-radius: 4px;
     font-size: 0.9em;
+}
+
+/* --- JOURNAL SECTION --- */
+.journal-entry {
+    background: var(--white);
+    border: 1px solid var(--border);
+    padding: 25px;
+    border-radius: var(--radius);
+    margin-top: 15px;
+}
+
+.journal-meta {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.journal-date {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--primary);
+    text-transform: uppercase;
+}
+
+.journal-tag {
+    background-color: var(--accent-light);
+    color: var(--accent);
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 12px;
+}
+
+.journal-entry h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.journal-entry p {
+    color: var(--gray);
+    margin-bottom: 10px;
+}
+
+.journal-entry p:last-child {
+    margin-bottom: 0;
 }
 
 /* --- CONTACT --- */
