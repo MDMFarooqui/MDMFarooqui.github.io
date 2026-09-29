@@ -308,3 +308,108 @@ footer {
     color: var(--gray);
     font-size: 0.9rem;
 }
+
+/* --- SUB-HERO & BACK LINK --- */
+.hero-sub {
+    padding: 50px 0 40px;
+    text-align: left;
+}
+
+.back-link {
+    color: #a7f3d0;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+/* --- ACCORDION & JOURNAL STYLES --- */
+.journal-controls {
+    margin-bottom: 20px;
+    color: var(--gray);
+    font-size: 0.95rem;
+}
+
+.accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.accordion-item {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+    transition: border-color 0.2s ease;
+}
+
+.accordion-header {
+    width: 100%;
+    padding: 20px 25px;
+    background: none;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.accordion-header h3 {
+    font-size: 1.15rem;
+    color: var(--dark);
+    margin: 5px 0 0;
+}
+
+.toggle-icon {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary);
+    transition: transform 0.3s ease;
+}
+
+.accordion-item.active .toggle-icon {
+    transform: rotate(45deg);
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background-color: #fafafa;
+}
+
+.accordion-item.active .accordion-content {
+    max-height: 1000px;
+    border-top: 1px solid var(--border);
+}
+
+.accordion-body {
+    padding: 25px;
+    color: var(--dark);
+}
+
+.accordion-body h4 {
+    margin: 15px 0 8px;
+    color: var(--primary);
+}
+
+.accordion-body h4:first-child {
+    margin-top: 0;
+}
+
+.accordion-body ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.accordion-body li {
+    margin-bottom: 6px;
+}
