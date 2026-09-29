@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Journal - Digital Equity for Winnipeg Youth</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero hero-sub">
+        <div class="container">
+            <a href="index.html" class="back-link">&larr; Return to Main Site</a>
+            <h1>Project Journal & Research Log</h1>
+            <p class="tagline">Detailed updates, research findings, and technical milestones for Digital Equity for Winnipeg Youth.</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="section">
+            <div class="journal-controls">
+                <p>Click on any entry to expand or collapse its details.</p>
+            </div>
+
+            <div class="accordion">
+
+                <!-- September 2026 Entry -->
+                <div class="accordion-item active">
+                    <button class="accordion-header">
+                        <div class="journal-meta">
+                            <span class="journal-date">September 2026</span>
+                            <span class="journal-tag">Research & Strategy</span>
+                        </div>
+                        <h3>Phase 1: Mapping Winnipeg's Digital Divide & Open-Source Viability</h3>
+                        <span class="toggle-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <h4>Research Scope & Local Context</h4>
+                            <p>Throughout September, research focused on analyzing the local digital divide across Manitoba using reports from CBC, Maclean's, and Canadian telecommunications research papers on digital equity. A core finding is that digital poverty is rarely just about internet access—it is heavily tied to device availability. Many low-income Winnipeg households rely solely on smartphones or a single shared screen for multiple students.</p>
+
+                            <h4>Key Findings & Hardware Lifespans</h4>
+                            <ul>
+                                <li><strong>Corporate Turn-Over:</strong> Local businesses and law firms routinely decommission working laptops and desktops every 3 to 5 years due to software vendor requirements or corporate lease expirations.</li>
+                                <li><strong>The Windows 11 Barrier:</strong> A significant portion of 2012–2018 era hardware cannot officially run modern proprietary operating systems despite having capable multi-core CPUs and 8GB+ RAM.</li>
+                                <li><strong>Open-Source Solution:</strong> Deploying lightweight Linux distributions eliminates operating system licensing costs, significantly lowers hardware requirements, and provides a modern, secure browser environment (Firefox/Chromium) suitable for Google Classroom, Microsoft 365 web applications, and research.</li>
+                            </ul>
+
+                            <h4>Sanitization & Donated Drive Management</h4>
+                            <p>To address corporate donor concerns around data privacy, we established a multi-pass overwrite workflow using open-source utilities (<code>shred</code> and DBAN) aligning with NIST-style sanitization concepts. We also adopted a policy to accept hardware without storage drives, sourcing replacement SSDs to ensure zero liability for donor firms.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- October 2026 Placeholder Entry -->
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <div class="journal-meta">
+                            <span class="journal-date">October 2026</span>
+                            <span class="journal-tag">Outreach & Logistics</span>
+                        </div>
+                        <h3>Phase 2: Corporate Outreach & Refurbishing Pipeline</h3>
+                        <span class="toggle-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <p>Initiating formal contact with Winnipeg MSPs, law firms, and e-waste organizations to secure initial hardware donations and establish testing workflows.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; Digital Equity for Winnipeg Youth. Student-led community tech initiative.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
