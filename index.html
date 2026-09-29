@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,122 +9,130 @@
 </head>
 <body>
 
-    <header class="hero">
-        <div class="container">
-            <span class="badge">Student-Led Initiative</span>
-            <h1>Digital Equity for Winnipeg Youth</h1>
-            <p class="tagline">Bridging Winnipeg's digital divide by rescuing retired hardware, deploying powerful open-source software, and putting computers directly into the hands of students in need.</p>
-            <div class="hero-buttons">
-                <a href="#donate" class="btn btn-primary">Donate Hardware</a>
-                <a href="#goals" class="btn btn-secondary">Our 2029 Goal</a>
+```
+<header class="hero">
+    <div class="container">
+        <span class="badge">Student-Led Initiative</span>
+        <h1>Digital Equity for Winnipeg Youth</h1>
+        <p class="tagline">Helping Winnipeg students get access to computers by collecting unused hardware, giving it a second life, and getting it into the hands of students who need it.</p>
+        <div class="hero-buttons">
+            <a href="#donate" class="btn btn-primary">Donate Hardware</a>
+            <a href="#goals" class="btn btn-secondary">Our 2029 Goal</a>
+        </div>
+    </div>
+</header>
+
+<main class="container">
+
+    <section id="about" class="section">
+        <h2>Our Mission</h2>
+        <div class="grid-2">
+            <div>
+                <p>Having a computer at home can make a big difference for students. It can be used for writing assignments, doing research, learning to code, and keeping up with schoolwork. However, not every student has access to a computer at home and some have to rely on a phone or share a device with other family members.</p>
+
+                <p>At the same time, many businesses and households have older computers that they no longer use. A lot of these computers can still be useful. This project is about collecting those devices, fixing them when possible, and giving them to students and families who could use them.</p>
+            </div>
+
+            <div class="highlight-box">
+                <h3>Why Open Source?</h3>
+                <p>Older computers often struggle with newer, resource-heavy software. Lightweight open-source operating systems can help these machines run better without the need for expensive software licenses. They can also give older computers several more years of useful life instead of having them become e-waste.</p>
             </div>
         </div>
-    </header>
+    </section>
 
-    <main class="container">
-
-        <section id="about" class="section">
-            <h2>Our Mission</h2>
-            <div class="grid-2">
-                <div>
-                    <p>Access to a reliable home computer is essential for writing papers, coding, research, and general learning. Yet many students across Winnipeg still struggle without a dedicated device or rely entirely on shared smartphones.</p>
-                    <p>At the same time, thousands of functional 5-to-10-year-old computers are prematurely retired by businesses every year. <strong>Digital Equity for Winnipeg Youth</strong> intercepts this hardware, refreshes it using open-source tools, and delivers it directly to local families.</p>
-                </div>
-                <div class="highlight-box">
-                    <h3>Why Open Source?</h3>
-                    <p>Proprietary operating systems demand constant hardware upgrades and heavy system resources, forcing working computers into landfills. By deploying lightweight, community-driven <strong>open-source software</strong>, we eliminate software licensing costs, protect user privacy, and give older machines a fast, secure second life tailored for education.</p>
-                </div>
+    <section id="goals" class="section">
+        <h2>Project Target</h2>
+        <div class="goal-card">
+            <div class="goal-stat">3,000</div>
+            <div class="goal-text">
+                <h3>Refurbished Computers Delivered by 2029</h3>
+                <p>The long-term goal is to collect unused computers from businesses and households around Winnipeg, refurbish them, and get 3,000 working computers into the homes of students and families who need them by 2029.</p>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="goals" class="section">
-            <h2>Project Target</h2>
-            <div class="goal-card">
-                <div class="goal-stat">3,000</div>
-                <div class="goal-text">
-                    <h3>Refurbished Computers Delivered by 2029</h3>
-                    <p>Our long-term initiative aims to collect corporate and household e-waste across Winnipeg, install lightweight open-source operating systems, and place 3,000 fully functional PCs and laptops into student homes over the next three years.</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="accept" class="section">
-            <h2>What We Accept</h2>
-            <p class="section-desc">We accept donations from anyone who is willing to lend a hand.</p>
-            
-            <div class="cards-grid">
-                <div class="card">
-                    <div class="card-icon">💻</div>
-                    <h3>Laptops & Desktops</h3>
-                    <p>Windows 7/8/10 era PCs, older MacBooks, or Chromebooks (roughly 2012 or newer).</p>
-                </div>
-
-                <div class="card">
-                    <div class="card-icon">🔌</div>
-                    <h3>Parts & Peripherals</h3>
-                    <p>Monitors, keyboards, mice, power adapters, spare RAM, and SSDs/HDDs.</p>
-                </div>
-
-                <div class="card">
-                    <div class="card-icon">🛠️</div>
-                    <h3>Faulty devices</h3>
-                    <p>Machines missing or having damaged components are completely welcome—we source spare parts to rebuild them.</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="security" class="section security-section">
-            <h2>Data Security & Privacy</h2>
-            <p>Data security is essential for corporate and individual donors alike. We follow clear sanitization protocols to protect donor privacy.</p>
-
-            <div class="security-features">
-                <div class="feature">
-                    <h3>Multi-Pass Sanitization</h3>
-                    <p>All incoming drives undergo a multi-pass overwrite process using open-source drive-wiping utilities (such as <code>shred</code> and DBAN) following methods similar to NIST data sanitization guidelines to ensure all previous data is irrecoverable.</p>
-                </div>
-                <div class="feature">
-                    <h3>Drive-Removal Option</h3>
-                    <p>If your organization's compliance policy requires you to destroy or retain hard drives internally, <strong>we accept machines without storage drives</strong> and will install replacement drives ourselves.</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="journal" class="section">
-            <h2>Project Journal & Research</h2>
-            <p class="section-desc">Documenting our research, milestones, and progress as the project develops.</p>
-
-            <div class="journal-entry">
-                <div class="journal-meta">
-                    <span class="journal-date">September 2026</span>
-                    <span class="journal-tag">Research & Planning</span>
-                </div>
-                <h3>Phase 1: Mapping Winnipeg's Digital Divide</h3>
-                <p>Reviewed research on digital inequity across Manitoba (CBC, Maclean's, Canadian digital divide policy studies) detailing how functional hardware is prematurely discarded while local students lack home computers.</p>
-                <a href="journal.html" class="btn btn-primary" style="margin-top: 15px; display: inline-block;">Read Full Journal & Research Entries &rarr;</a>
-            </div>
-        </section>
+    <section id="accept" class="section">
+        <h2>What We Accept</h2>
+        <p class="section-desc">If you have old computer equipment sitting around, we'd be happy to hear from you.</p>
         
-        <section id="donate" class="section">
-            <h2>Get in Touch</h2>
-            <div class="contact-card">
-                <p>Have unused computers or office hardware gathering dust? We arrange free pickup anywhere in Winnipeg or public drop-offs at local libraries.</p>
-                
-                <div class="contact-details">
-                    <p><strong>Founder & Project Lead:</strong> Mohammed Daniyal Mansoor Farooqui</p>
-                    <p><strong>Affiliation:</strong> Student, The University of Winnipeg Collegiate</p>
-                    <p><strong>Email:</strong> <a href="mailto:farooqui-m@webmail.uwinnipeg.ca">farooqui-m@webmail.uwinnipeg.ca</a></p>
-                    <p><strong>Location:</strong> Winnipeg, MB, Canada</p>
-                </div>
+        <div class="cards-grid">
+            <div class="card">
+                <div class="card-icon">💻</div>
+                <h3>Laptops & Desktops</h3>
+                <p>Older Windows PCs, MacBooks, and Chromebooks, especially machines from around 2012 or newer.</p>
             </div>
-        </section>
 
-    </main>
+            <div class="card">
+                <div class="card-icon">🔌</div>
+                <h3>Parts & Peripherals</h3>
+                <p>Monitors, keyboards, mice, power adapters, RAM, SSDs, HDDs, and other computer parts.</p>
+            </div>
 
-    <footer>
-        <div class="container">
-            <p>&copy; Digital Equity for Winnipeg Youth. Open-source community tech initiative.</p>
+            <div class="card">
+                <div class="card-icon">🛠️</div>
+                <h3>Faulty Devices</h3>
+                <p>Broken or incomplete computers are welcome too. If the device can be repaired or used for parts, we may be able to give it a second life.</p>
+            </div>
         </div>
-    </footer>
+    </section>
+
+    <section id="security" class="section security-section">
+        <h2>Data Security & Privacy</h2>
+        <p>We understand that people may have personal or business data on computers they donate. Protecting that information is an important part of the project.</p>
+
+        <div class="security-features">
+            <div class="feature">
+                <h3>Data Wiping</h3>
+                <p>Before a donated computer is given to someone else, its storage drive will be securely wiped using appropriate data-erasure tools. We use established data-sanitization practices to reduce the chance of old files being recovered.</p>
+            </div>
+
+            <div class="feature">
+                <h3>Drive-Removal Option</h3>
+                <p>If a business needs to keep or destroy its storage drives for its own security or compliance requirements, that's completely fine. We can also accept computers without their original drives and install replacement storage.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="journal" class="section">
+        <h2>Project Journal & Research</h2>
+        <p class="section-desc">Following the research, progress, and milestones behind the project.</p>
+
+        <div class="journal-entry">
+            <div class="journal-meta">
+                <span class="journal-date">September 2026</span>
+                <span class="journal-tag">Research & Planning</span>
+            </div>
+
+            <h3>Phase 1: Mapping Winnipeg's Digital Divide</h3>
+            <p>Research into digital access in Winnipeg and Manitoba, including reports and articles about students who lack reliable access to computers and the amount of usable technology that gets thrown away or replaced.</p>
+
+            <a href="journal.html" class="btn btn-primary" style="margin-top: 15px; display: inline-block;">Read Full Journal & Research Entries &rarr;</a>
+        </div>
+    </section>
+    
+    <section id="donate" class="section">
+        <h2>Get in Touch</h2>
+
+        <div class="contact-card">
+            <p>Have an old computer or other equipment that you don't use anymore? Get in touch and we'll see if we can put it to good use.</p>
+            
+            <div class="contact-details">
+                <p><strong>Founder & Project Lead:</strong> Mohammed Daniyal Mansoor Farooqui</p>
+                <p><strong>Affiliation:</strong> Student, The University of Winnipeg Collegiate</p>
+                <p><strong>Email:</strong> <a href="mailto:farooqui-m@webmail.uwinnipeg.ca">farooqui-m@webmail.uwinnipeg.ca</a></p>
+                <p><strong>Location:</strong> Winnipeg, MB, Canada</p>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <div class="container">
+        <p>&copy; Digital Equity for Winnipeg Youth. Student-led community technology initiative.</p>
+    </div>
+</footer>
+```
 
 </body>
 </html>
