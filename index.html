@@ -3,55 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mohammed Daniyal Farooqui</title>
+    <title>Digital Equity for Winnipeg Youth</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="logo">Daniyal.dev</div>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+
+    <header class="hero">
+        <div class="container">
+            <span class="badge">Student-Led Initiative</span>
+            <h1>Digital Equity for Winnipeg Youth</h1>
+            <p class="tagline">Bridging the digital divide in Winnipeg by rescuing retired hardware, installing lightweight Linux Mint, and placing computers directly into the hands of students in need.</p>
+            <div class="hero-buttons">
+                <a href="#donate" class="btn btn-primary">Donate Hardware</a>
+                <a href="#security" class="btn btn-secondary">Data Security Guarantee</a>
+            </div>
+        </div>
     </header>
 
-    <main>
-        <section id="about" class="hero">
-            <h1>Hi, I'm Mohammed Daniyal Farooqui</h1>
-            <p>Student at The University of Winnipeg Collegiate | Developer & Linux Enthusiast</p>
-            <p>I build web pages, write Python, and practice Choy Li Fut when I'm not at the keyboard.</p>
+    <main class="container">
+
+        <section id="about" class="section">
+            <h2>Our Mission</h2>
+            <div class="grid-2">
+                <div>
+                    <p>Access to a reliable home computer is essential for writing papers, doing research, and succeeding in school. Yet many students across Winnipeg still struggle with device access or rely solely on shared smartphones.</p>
+                    <p>At the same time, thousands of functional 5-to-10-year-old laptops and desktops are discarded or sit unused in office storage rooms. <strong>Digital Equity for Winnipeg Youth</strong> bridges this gap by intercepting retired hardware before it reaches the landfill, refurbishing it with open-source software, and delivering it to local youth.</p>
+                </div>
+                <div class="highlight-box">
+                    <h3>Why Linux Mint?</h3>
+                    <p>Modern Windows operating systems demand heavy system specs, forcing perfectly good 2012–2018 computers into retirement. By installing lightweight, user-friendly <strong>Linux Mint</strong>, we give older hardware a second life—providing a fast, secure, and complete desktop experience for schoolwork.</p>
+                </div>
+            </div>
         </section>
 
-        <section id="projects" class="content-section">
-            <h2>What I'm Working On</h2>
-            <div class="grid">
+        <section id="accept" class="section">
+            <h2>What We Accept</h2>
+            <p class="section-desc">We accept hardware from households, local small businesses, law firms, and IT providers across Winnipeg.</p>
+            
+            <div class="cards-grid">
                 <div class="card">
-                    <h3>Laptop Refurbishing Initiative</h3>
-                    <p>A multi-year project to collect e-waste laptops, repair them, install Linux Mint, and distribute them to students in need across Winnipeg.</p>
+                    <div class="card-icon">💻</div>
+                    <h3>Laptops & Desktops</h3>
+                    <p>Windows 7/8/10 era machines, older MacBooks, or Chromeboxes (roughly 2012 or newer).</p>
                 </div>
+
                 <div class="card">
-                    <h3>Web Development</h3>
-                    <p>Building responsive, accessible sites using HTML and CSS, hosted via GitHub Pages.</p>
+                    <div class="card-icon">🔌</div>
+                    <h3>Parts & Accessories</h3>
+                    <p>Power adapters, chargers, monitors, mice, keyboards, and spare RAM or SSDs.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">🛠️</div>
+                    <h3>Fixer-Uppers</h3>
+                    <p>Machines with missing storage drives, weak batteries, or low RAM are completely welcome!</p>
                 </div>
             </div>
         </section>
-        
-        <section id="contact" class="content-section">
-            <h2>Get In Touch</h2>
-            <div class="card" style="text-align: center;">
-                <p>Want to collaborate on the laptop project or talk tech?</p>
-                <br>
-                <!-- Replace with your actual GitHub link -->
-                <a href="https://github.com/yourusername" class="button">Visit my GitHub</a>
+
+        <section id="security" class="section security-section">
+            <h2>Data Security & Privacy Guarantee</h2>
+            <p>Data security is the #1 concern for corporate and individual donors. We maintain strict sanitization standards to ensure complete peace of mind.</p>
+
+            <div class="security-features">
+                <div class="feature">
+                    <h3>🔒 NIST Multi-Pass Drive Wiping</h3>
+                    <p>Every donated hard drive undergoes a certified multi-pass wipe using open-source drive sanitization tools (like <code>shred</code> and DBAN) to permanently erase all personal or corporate data before any OS is deployed.</p>
+                </div>
+                <div class="feature">
+                    <h3>🛠️ Drive-Removal Option</h3>
+                    <p>If your organization's compliance policy requires internal drive destruction or retention, <strong>we accept hardware without storage drives</strong> and will supply replacement SSDs ourselves.</p>
+                </div>
             </div>
         </section>
+
+        <section id="donate" class="section">
+            <h2>Donate or Get in Touch</h2>
+            <div class="contact-card">
+                <p>Have unused office computers or a household laptop gathering dust? We arrange free pickup anywhere in Winnipeg or public meetups at local library branches.</p>
+                
+                <div class="contact-details">
+                    <p><strong>Founder & Project Lead:</strong> Mohammed Daniyal Farooqui</p>
+                    <p><strong>Affiliation:</strong> Student, The University of Winnipeg Collegiate</p>
+                    <p><strong>Email:</strong> <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+                    <p><strong>Location:</strong> Winnipeg, MB, Canada</p>
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <footer>
-        <p>&copy; 2026 Mohammed Daniyal Farooqui. Hosted on GitHub Pages.</p>
+        <div class="container">
+            <p>&copy; Digital Equity for Winnipeg Youth. Student-led community refurbishing project.</p>
+        </div>
     </footer>
+
 </body>
 </html>
