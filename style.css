@@ -436,3 +436,7 @@ footer {
     margin-bottom: 8px;
     font-size: 0.95rem;
 }
+
+.highlight-box {
+    transform: translateY(-20px);
+}
