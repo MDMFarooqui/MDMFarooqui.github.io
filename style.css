@@ -437,6 +437,12 @@ footer {
     font-size: 0.95rem;
 }
 
-.highlight-box {
-    transform: translateY(-20px);
+.open-source-section {
+    margin-top: 35px;
+    padding-top: 25px;
+    border-top: 1px solid var(--border);
+}
+
+.open-source-section h3 {
+    margin-bottom: 15px;
 }
