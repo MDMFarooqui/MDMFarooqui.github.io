@@ -387,7 +387,7 @@ footer {
 }
 
 .accordion-item.active .accordion-content {
-    max-height: 1000px;
+    max-height: 10000px;
     border-top: 1px solid var(--border);
 }
 
