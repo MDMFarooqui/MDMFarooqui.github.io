@@ -379,17 +379,19 @@ footer {
     transform: rotate(45deg);
 }
 
+
 .accordion-content {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease-out;
     background-color: #fafafa;
+    box-sizing: border-box;
 }
 
 .accordion-item.active .accordion-content {
-    max-height: 10000px;
     border-top: 1px solid var(--border);
 }
+
 
 .accordion-body {
     padding: 25px;
